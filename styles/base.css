@@ -33,10 +33,26 @@ nav a:hover {
     background-color:blue;
     padding: 5px;
 
-  }
+}
 
-.card h1 {
-    background-color: hsl(240, 35%, 50%);
+header h1 {
+    background-color: hsl(240, 70%, 31%);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+header .name {
+    color: yellow;
+    display: inline-block;
+}
+
+.card h2 {
+    background-color:  hsl(240, 70%, 31%);
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -44,7 +60,7 @@ nav a:hover {
     text-align: center;
 }
 
-.card h2{
+.card h3{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -99,7 +115,7 @@ p {
   }
 
 footer {
-    background-color: hsl(240, 35%, 50%);
+    background-color:  hsl(240, 70%, 31%);
 }
 
 footer p {
