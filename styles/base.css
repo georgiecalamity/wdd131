@@ -52,7 +52,7 @@ header .name {
 }
 
 .card h2 {
-    background-color:  hsl(240, 70%, 31%);
+    background-color: hsl(240, 70%, 31%);
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -115,7 +115,7 @@ p {
   }
 
 footer {
-    background-color:  hsl(240, 70%, 31%);
+    background-color: hsl(240, 70%, 31%);
 }
 
 footer p {
