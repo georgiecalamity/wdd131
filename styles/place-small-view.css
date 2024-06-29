@@ -1,0 +1,80 @@
+@media (max-width: 700px) {
+    .hero-image {
+      height: auto;
+    }
+  
+    .hero-image aside {
+      width: 100%;
+      margin: 0;
+      left: 0;
+      right: 0;
+      position: static;
+    }
+  
+    .hero-image aside:first-of-type {
+      box-sizing: border-box;
+      height: fit-content;
+      bottom: 0%;
+    }
+  
+    .hero-image aside:last-of-type {
+      bottom: 0px;
+      box-sizing: border-box;
+    }
+
+    .hero-image img {
+      height: 180vh;
+    }
+  
+    header h1 {
+      font-size: 50px;
+      padding: 20px;
+    }
+  
+    .header-with-image img {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .data-card {
+      width: 100%;
+      display: flex;
+      margin: 0;
+    }
+
+    .data-card div {
+      width: 100%;
+    }
+  
+    .data-card p {
+    text-align: right;
+    }
+
+   .second-div p{
+      text-align: left;
+    }
+    
+    aside h2 {
+      left: 0;
+      width: 100%;
+      margin: 0;
+    }
+  
+    .empty-space {
+      padding: 10px;
+    }
+
+    aside:last-child{
+      margin: 0;
+      width: 100%;
+    }
+
+    aside:first-child {
+      margin: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+    }
+  }
+  
+  
