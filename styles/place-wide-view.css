@@ -1,0 +1,5 @@
+@media (min-width: 701px) {
+    .header-with-image .weather-icon {
+        display: none;
+      }
+}
