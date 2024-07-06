@@ -1,0 +1,10 @@
+/* Tablet and desktop view */
+@media (min-width: 601px) {
+    .menu-icon {
+        display: none;
+    }
+
+    .templeImages {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
