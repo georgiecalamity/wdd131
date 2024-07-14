@@ -1,0 +1,31 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.secondImg {
+  position: relative;
+  left: 300px;
+  bottom: 250px;
+}
+.firstImg{
+  position: relative;
+  left: 100px;
+  top: 40px;
+}
+
+div {
+  border: solid gray 2px;
+  margin: 20px;
+  padding: 10px;
+  background-color: hsla(0, 0%, 0%, 0.878);
+  color: white;
+  border-color: hsl(45, 100%, 69%);
+  
+}
+
+div h3 {
+  color: hsl(45, 100%, 69%);
+}
