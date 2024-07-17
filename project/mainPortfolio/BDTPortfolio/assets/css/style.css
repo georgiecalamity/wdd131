@@ -618,7 +618,7 @@
     visibility: visible;
   }
   
-  .overlay {
+  /* .overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -630,6 +630,20 @@
     pointer-events: none;
     z-index: 1;
     transition: var(--transition-1);
+  } */
+  .overlay {
+    /* Set the position to fixed to cover the entire screen */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Set the background color to semi-transparent black */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Set the z-index to ensure the overlay appears below the modal */
+    z-index: 998;
+    /* Add some animation for smoothness */
+    transition: all 0.3s ease-in-out;
   }
   
   .overlay.active {
@@ -638,7 +652,7 @@
     pointer-events: all;
   }
   
-  .testimonials-modal {
+  /* .testimonials-modal {
     background: var(--eerie-black-2);
     position: relative;
     padding: 15px;
@@ -650,6 +664,27 @@
     opacity: 0;
     transition: var(--transition-1);
     z-index: 2;
+  } */
+  .testimonials-modal {
+    /* Set the width to 100% for mobile devices */
+    width: 100%;
+    /* Use a max-width to limit the size of the modal on larger devices */
+    max-width: 600px;
+    /* Center the modal horizontally and vertically */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Add some padding to the modal content */
+    padding: 20px;
+    /* Set the background color to white */
+    background-color: #fff;
+    /* Add some box shadow for depth */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Set the z-index to ensure the modal appears above other content */
+    z-index: 999;
+    /* Add some animation for smoothness */
+    transition: all 0.3s ease-in-out;
   }
   
   .modal-container.active .testimonials-modal {
@@ -657,7 +692,7 @@
     opacity: 1;
   }
   
-  .modal-close-btn {
+  /* .modal-close-btn {
     position: absolute;
     top: 15px;
     right: 15px;
@@ -671,6 +706,21 @@
     color: var(--white-2);
     font-size: 18px;
     opacity: 0.7;
+  } */
+  .modal-close-btn {
+    /* Set the position to absolute to position it in the top right corner of the modal */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /* Set the font size and color */
+    font-size: 24px;
+    color: #333;
+    /* Remove any default styling */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    /* Add some animation for smoothness */
+    transition: all 0.3s ease-in-out;
   }
   
   .modal-close-btn:hover,
@@ -686,9 +736,28 @@
     box-shadow: var(--shadow-2);
   }
   
-  .modal-img-wrapper > img { display: none; }
+  /* .modal-img-wrapper > img { display: none; } */
+  .modal-img-wrapper img {
+    /* Set the width to 100% for mobile devices */
+    width: 100%;
+    /* Set the max-width to limit the size of the image on larger devices */
+    max-width: 300px;
+    /* Center the image horizontally */
+    margin: 0 auto;
+    /* Add some margin to the bottom of the image */
+    margin-bottom: 20px;
+  }
   
-  .modal-title { margin-bottom: 4px; }
+  /* .modal-title { margin-bottom: 4px; } */
+  .modal-title {
+    /* Set the font size and weight */
+    font-size: 24px;
+    font-weight: 700;
+    /* Set the margin to 0 */
+    margin: 0;
+    /* Add some margin to the bottom of the title */
+    margin-bottom: 10px;
+  }
   
   .modal-content time {
     font-size: var(--fs-6);
@@ -702,6 +771,15 @@
     font-size: var(--fs-6);
     font-weight: var(--fw-300);
     line-height: 1.6;
+  }
+  .modal-text {
+    /* Set the font size and weight */
+    font-size: 16px;
+    font-weight: 400;
+    /* Set the line height for readability */
+    line-height: 1.5;
+    /* Add some margin to the bottom of the text */
+    margin-bottom: 20px;
   }
   
   
